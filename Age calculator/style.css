@@ -1,0 +1,122 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #080606;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: #100e0e;
+    border-radius: 15px;
+    border-width: 100px;
+    border: 1px solid rgb(255, 0, 174);
+    box-shadow: inset 0 0 0.5em 0 rgb(255, 0, 174), 0 0 0.5em 0 rgb(255, 0, 128);
+    gap:20px;
+}
+.base{
+    font-size: 40px;
+    text-align : center;
+    font-weight:normal;
+    margin-top: 0px;
+    color:white;
+    margin-top:20px;
+
+}
+.block{
+    width: 150px;
+    height:40px;
+    padding: 5px 2px;
+    margin-left:62px;
+    /* margin-right:100px; */
+    display:inline-block;
+
+}
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color:rgb(255, 0, 174); 
+}
+input[type=number]{
+    width: 100px;
+    height: 40px;
+    margin: 15px 5px;
+    padding: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #111;
+    border: 2px solid rgb(255, 0, 174);
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(255, 0, 174);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.submit-button{
+    border:none;
+    width: 250px;
+    height: 50px;
+
+    text-align:center;
+    display:center;
+    margin-right: 80px;
+    margin-left: 225px;
+    margin-top : 75px;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline-color: rgb(255, 0, 174);
+    border:none;
+    background-color: rgb(255, 0, 174);
+
+    border: 1px solid rgb(255, 0, 174); 
+    padding: 0.25em 1em;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0.5em 0 rgb(255, 0, 174), 0 0 0.5em 0 rgb(255, 0, 128); 
+}
+.submit-button:hover{
+    color: rgb(8, 0, 255);
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+    box-shadow: inset 0 0 0.5em 0 rgb(255, 0, 174), 0 0 0.5em 0 rgb(255, 0, 128);
+}
+ #age{
+    padding: 20px;
+    overflow:hidden;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing:2.7;
+    color:#fff
+} 
+/* .submit-button{
+    width: 150px;
+    margin-left: 30%;
+    margin-top : 40px;
+    border:none;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgb(255, 0, 174);
+    color: #fff;
+    border: 1px solid rgb(255, 0, 174);
+    padding: 0.25em 1em;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0.5em 0 rgb(255, 0, 174), 0 0 0.5em 0 rgb(255, 0, 128); */
+/* .custom-line {
+    border: none;
+    height: 2px;
+    background-color: rgb(255, 0, 174); /* Matches your theme */
+    /* margin: 20px 0;
+} */ 
